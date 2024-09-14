@@ -4,6 +4,7 @@ body {
 }
 
 .bg-cover, .t-cover__carrier {
+    background-image: url(./images/bg.jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
