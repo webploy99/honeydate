@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="main.css">
+    <title>honeydate</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2684106288426799');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=2684106288426799&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+    <div class="bg-cover" style="background-image: url(./images/bg.jpg);">
+        <div class="absolute top-0 left-0 w-full h-[100vh] bg-black/75"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 text-yellow-500 w-full sm:w-auto p-5">
+            <div class="flex flex-col text font-semibold text-white sm:w-[448px] md:w-[768px]">
+                <span class="text-lg tracking-wide">💕プレミアム女性クラブ、セクシーの甘いデート</span>
+                <div class="flex flex-col items-center w-full tracking-wide leading-8">
+                    <span class="mt-5"><span class="text-[#11d63a]">💯</span> クラブ新規加入者初の無料マッチング、効率的で、品質厳選</span>
+                    <span class=""><span class="text-[#11d63a]">💯</span> プライバシー保護、一対一の専門顧客サービス</span>
+                    <span class=""><span class="text-[#11d63a]">💯</span> 人妻、巨乳、素人、看護婦、ローリ、ミッシーなど多様なジャンル選択可能</span>
+                </div>
+
+                <div class="mt-10 md:-ml-10 flex flex-col gap-5 md:gap-1 md:flex-row items-center justify-center w-full">
+                    <div class="md:hidden"><img src="./images/arrow-down.png" class="w-7/12"></div>
+                    <div class="hidden md:block"><img src="./images/arrow-right.png" class="w-7/12"></div>
+                    <button onclick="url()" class="bg-[#11d63a] hover:bg-[#10b932] w-full md:w-56 h-14 rounded-full">今すぐ参加してください</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function url() {
+            fbq("track", "CompleteRegistration");
+            location.href = "";
+        }
+    </script>
+</body>
+</html>
